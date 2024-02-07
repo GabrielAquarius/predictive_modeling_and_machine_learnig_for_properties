@@ -1,0 +1,33 @@
+### Bibliotecas Utilizadas
+
+- **Webscrapping**
+    - `requests` para realizar requisições HTTP.
+    - `json` para manipulação de dados JSON.
+    - `pandas` para manipulação e análise de dados.
+    - `numpy` para operações numéricas.
+- **Visualização**
+    - `matplotlib` para criação de gráficos.
+    - `seaborn` para visualização de dados estatísticos.
+- **Pré-processamento**
+    - `SimpleImputer` para tratamento de valores ausentes.
+    - `LabelEncoder` para codificação de variáveis categóricas.
+    - `OneHotEncoder` para codificação one-hot de variáveis categóricas.
+    - `StandardScaler` e `MinMaxScaler` para normalização de dados numéricos.
+- **Seleção**
+    - `train_test_split` para dividir o conjunto de dados em conjuntos de treino e teste.
+    - `cross_val_score` para avaliação cruzada de modelos.
+    - `GridSearchCV` para busca dos melhores hiperparâmetros.
+- **Modelos de Regressão**
+    - `LinearRegression` para regressão linear.
+    - `KNeighborsRegressor` para regressão com k-vizinhos mais próximos.
+    - `DecisionTreeRegressor` para regressão com árvores de decisão.
+    - `RandomForestRegressor` para regressão com florestas aleatórias.
+- **Modelos de Classificação**
+    - `LogisticRegression` para regressão logística.
+    - `DecisionTreeClassifier` para classificação com árvores de decisão.
+    - `GaussianNB` para classificação com Naive Bayes.
+- **Métricas dos Modelos**
+    - `classification_report`, `accuracy_score`, `precision_score`, `recall_score`, `f1_score` para avaliação de modelos.
+    - `confusion_matrix` para matriz de confusão.
+- **Pipeline**
+    - `make_pipeline` para construção de pipelines de pré-processamento e modelagem.
